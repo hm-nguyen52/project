@@ -1,5 +1,100 @@
-\documentclass{article}
+\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{graphicx}
 \begin{document}
-(Type your content here.)
+\title{\Huge My thesis test\\
+Band I\\
+Lorem Ipsum dolor sit amet}
+\author{Vu Hoai Phuong Nguyen}
+\date{Today is the \today}
+\maketitle
+\pagebreak
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\listoffigures
+\pagebreak
+\section{How are you? Test test}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,%what is that?  
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in \textbf{\textcolor{red}{Hallo???}} voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\section{Methods}
+\subsection{Chapter bloh bloh}
+\label{sec 1}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. refering to the section \ref{sec 1} on page \pageref{sec 1} Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\
+\begin{tabular}{r|cl}
+1st column & 2nd column & 3rd column\\
+\hline
+a & b & c
+\end{tabular}\\
+\space
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua. \\
+\begin{tabular}{l|l}
+Apples & Green\\
+Orange & Red\\
+Salad & orange\\
+\end{tabular}\\
+What do you think about it?\\
+\begin{tabular}{r|c}
+Apples & Green \\
+\hline
+Strawberries & Red \\
+\cline{2-2}
+Oranges & Orange\\
+\cline{1-1}
+\end{tabular}\\
+What do you think about it? \\
+\begin{tabular}{l|ccc}
+ & Year\\
+\cline{2-4}
+City & 2006 & 2007 & 2008 \\
+\hline
+London & 45789 & 46551 & 51298\\
+Berlin & 73285 & 54832 & 43254\\
+Paris & 32435 & 43513 & 34325 \\
+\end{tabular}\\
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\
+\begin{itemize}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua.
+\begin{enumerate}
+\item Lorem ipsum dolor sit amet, con
+\item Lorem ipsum dolor sit amet, con
+\begin{enumerate}
+\item shafldsjfdsafsdaf
+\item fdsafsldajflksa
+\item fsaflkjdsal
+\end{enumerate}
+\item Lorem ipsum dolor sit amet, con
+\item Lorem ipsum dolor sit amet, con
+\end{enumerate}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua.
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua.
+\end{itemize}
+\paragraph {\huge D}uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subparagraph*{Lorem Ipsum}
+Lorem ipsum dolor sit amet, consectetur \textit{halloword} \textsl{why?}  adipiscing \underline{what is that?} elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+\section{Chapter abcxyz}
+\subsection{what is that again?}
+\paragraph*{ABCYXSZ} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+\subparagraph{Lorem} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\
+\begin{figure}
+\centering
+\includegraphics[width=0.3\textwidth]{Images/dummy_2}
+\caption{Here is a dummy test figure}
+\label{floral}
+\end{figure}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea \ref{floral} commodo consequat.\\
+\linebreak
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{Images/dummy_3}
+\caption{Here is my second test figure}
+\label{floral2}
+\end{figure}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea \ref{floral2} commodo consequat.
+
+
+
+
 \end{document}
